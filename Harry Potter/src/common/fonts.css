@@ -1,0 +1,20 @@
+@font-face {
+    font-family: GBold;
+    src: url(../assets/fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: GMedium;
+    src: url(../assets/fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+    font-family: GRegular;
+    src: url(../assets/fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+    font-family: Street;
+    src: url(../assets/fonts/street.woff2);
+}
+@font-face {
+    font-family: BStreet;
+    src: url(../assets/fonts/street-bold.woff2);
+}

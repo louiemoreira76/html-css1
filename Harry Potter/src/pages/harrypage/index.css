@@ -1,0 +1,469 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #030328;
+}
+
+.cb-01{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100vw;
+    height: 53px;
+    background-color: #0000004D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.cb-01 div{
+    display: flex;
+    flex-direction: row;
+}
+
+.cb-01 img{
+    width: 160px;
+    height: 27px;
+}
+
+.cb-01 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: GBold;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#assine {
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    border-radius: 100px;
+    background-color: black;
+    font-family: GBold;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: #B535f6;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#assine:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.sc-01{
+    display: flex;
+    flex-direction: column;
+    height: 745px;
+    background-image: url(../../assets/images/hp-reu-hero.webp);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 130px 0px 30px 0px;
+}
+
+.sc-01 > img {
+    width: 300px;
+    height: 241px;
+    margin-left: 100px;
+}
+
+.sc-01 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 345px;
+    height: 35px;
+    background-image: linear-gradient( to left, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+
+#dispnv {
+    font-size: 15px;
+    font-family: GRegular;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.sc-01 > p {
+    width: 360px;
+    font-size: 16px;
+    font-family: GBold;
+    color: #D0B36A;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.sc-01 > h1 {
+    width: 320px;
+    font-size: 30px;
+    font-family: GBold;
+    color: #D0B36A;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.sc-01 > h3 {
+    width: 330px;
+    font-size: 25px;
+    font-family: GRegular;
+    color: #D0B36A;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.sc-01 > a {
+    display: flex;
+    flex-direction: row;
+    font-family: GBold;
+    width:  202px;
+    height: 44px;
+    color: white;
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 8.8px 24px 8px;
+    border-radius: 100px;
+    margin-left: 100px;
+    border: 2px solid transparent;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    transition: all 0.5s ease 0s !important;
+}
+
+.sc-01 > a:hover{
+    background-position: 1% 50%;
+    border: 2px solid rgb(198, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+#terms{
+    width: 360px;
+    font-size: 12px;
+    font-family: GRegular;
+    color: #D0B36A;
+    letter-spacing: 0px;
+    margin-left: 100px;
+    margin-top: 10px;   
+}
+
+.sc-02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sc-02 > h3 {
+    font-size: 20px;
+    font-family: GRegular;
+    color: #D0B36A;
+    letter-spacing: 8px;
+    margin: 60px 0px;
+}
+
+.sc-02 > p {
+    font-size: 16px;
+    font-family: GRegular;
+    color: white;
+    text-align: center;
+    width: 1110px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding: 0px 166px;
+}
+
+.sc-02 > iframe{
+    margin-top: 70px;
+}
+
+.bar {
+    width: 3px;
+    height: 98px;
+    background-image: linear-gradient( to left, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+    margin-bottom: 30px;
+}
+
+.sc-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sc-03 > h3 {
+    font-size: 20px;
+    color: #D0B36A;
+    font-family: GRegular;
+    letter-spacing: 5px;
+    margin-top: 32px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+}
+
+.profiles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profiles img {
+    width: 350px;
+    height: 431px;
+    margin-top: 50px;
+}
+
+.profiles span{
+    font-size: 20px;
+    color: #D0B36A;
+    font-family: Street;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.profiles h6{
+    font-size: 20px;
+    color: white;
+    font-family: Street;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 16px;
+}
+
+.sc-04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sc-04 > h3 {
+    font-size: 20px;
+    color: #D0B36A;
+    font-family: GRegular;
+    letter-spacing: 5px;
+    margin-top: 32px;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.section img {
+    width: 255px;
+    height: 383px;
+}
+
+.section h3 {
+    font-size: 17px;
+    color: #D0B36A;
+    letter-spacing: 5px;
+    font-family: Street;
+    text-align: center;
+    width: 255px;
+    height: 46px;
+    margin: 30px 0px;
+}
+
+.section p {
+    font-size: 16px;
+    color: white;
+    font-family: GRegular;
+    text-align: center;
+    line-height: 25px;
+    width: 255px;
+    height: 130px;
+}
+
+.scd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.scd img {
+    width: 900px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.sc-05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sc-05 > h3 {
+    font-size: 20px;
+    color: #D0B36A;
+    font-family: GRegular;
+    letter-spacing: 5px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.sc-05 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.sc-05 img {
+    width: 255px;
+    height: 144px;
+    margin: 0px 10px 30px 10px;
+    border: 1px solid rgb(91, 28, 230);
+    border-radius: 0.3rem;
+    box-shadow: rgb(255 0 100 / 20%) 30px 30px 60px, rgb(0 100 255 / 20%) -30px -30px 60px;
+    background-image: radial-gradient(rgba(91, 28, 230, 0.5), rgb(3, 3, 40) 175%);
+}
+
+.sc-06 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.sc-06 img {
+    width: 1110px;
+    height: 295.73px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+    margin-top: 40px;
+}
+
+.desc h3 {
+    font-size: 24px;
+    color: #D0B36A;
+    font-family: Street;
+    line-height: 35px;
+}
+
+.desc p {
+    font-size: 18px;
+    color: white;
+    font-family: Gregular;
+    line-height: 28px;
+}
+
+.desc > a {
+    display: flex;
+    flex-direction: row;
+    font-family: GBold;
+    width:  202px;
+    height: 44px;
+    color: white;
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 8.8px 24px 8px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    transition: all 0.5s ease 0s !important;
+}
+
+.desc > a:hover{
+    background-position: 1% 50%;
+    border: 2px solid rgb(198, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft p {
+    font-size: 12px;
+    font-family: GRegular;
+    color: #9E86FF;
+    margin: 10px 0px;
+}
+
+.dc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.dc1 a {
+    font-size: 12.8px;
+    letter-spacing: 2px;
+    color: #9E86FF;
+    text-decoration: none;
+    font-family: GBold;
+    padding: 7.04px 19.2px 6.4px;
+    transition: 0.5s;
+}
+
+.dc1 a:hover {
+    color: #fff;
+}
+
+.dc2 a {
+    font-size: 12.8px;
+    letter-spacing: 2px;
+    color: #9E86FF;
+    text-decoration: none;
+    font-family: GRegular;
+    padding: 7.04px 19.2px 6.4px;
+}
+
+.dc2 a:hover {
+    color: #fff;
+}
+
+.dc3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.dc3 a {
+    padding: 20px
+}
